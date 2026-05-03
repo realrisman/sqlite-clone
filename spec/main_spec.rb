@@ -22,8 +22,8 @@ describe 'database' do
     ])
     expect(result).to match_array([
       "db > Executed.",
-      "db > (1, user1, person1@example.com",
-      "Executed",
+      "db > (1, user1, person1@example.com)",
+      "Executed.",
       "db > ",
     ])
   end
