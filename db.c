@@ -222,9 +222,9 @@ void db_close(Table *table) {
       free(page);
       pager->pages[i] = NULL;
     }
-    free(pager);
-    free(table);
   }
+  free(pager);
+  free(table);
 }
 
 InputBuffer *new_input_buffer() {
